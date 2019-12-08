@@ -4,7 +4,7 @@
     }
 
 
-    $sid = getenv('TWILIO_ACCOUNT_SID'); // 'AC6f56a38a86229792e352701dfa5a8285'; 
-    $token = getenv('TWILIO_AUTH_TOKEN');   // '8e081ce2889661f4ec94a44ec0cf608f'; 
+    $sid = getenv('TWILIO_ACCOUNT_SID'); // 'l7wa'; 
+    $token = getenv('TWILIO_AUTH_TOKEN');   // 'l7wa'; 
 
     $twilio = new Client($sid, $token);
